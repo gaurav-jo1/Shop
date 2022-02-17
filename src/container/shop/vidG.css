@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.vidG_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    background: #081d3d;
+    overflow: hidden;
+
+}
+
+.vidG_xbox {
+    height: 500px;
+    width: 700px;
+    border: 3px solid #1093fda1;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 15px 20px #1093fda1;
+}
+
+
+.vidG_ps {
+    height: 500px;
+    width: 700px;
+    border: 3px solid #1093fda1;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 15px 20px #1093fda1;
+}
+
+
+.xbox_photo {
+    height: 500px;
+    width: 380px;
+}
+
+.ps_photo {
+    height: 500px;
+    width: 380px;
+}
+
+.xbox_photo img {
+    width: 380px;
+    height: 250px;
+}
+
+.ps_photo img {
+    width: 380px;
+    height: 250px;
+
+}
+
+.xbox_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.ps_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.xbox_photo h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.596);
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.ps_photo h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.596);
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.xbox_photo p {
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+}
+
+
+.ps_photo p {
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+}
+
+.buy-_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    background: #081d3d;
+
+}
+
+.buy-_btn button {
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(136, 136, 136);
+    cursor: pointer;
+}
+
+.xbox_photo a,
+.ps_photo a {
+    display: none;
+}
+
+@media screen and (max-width: 1630px) {
+    .vidG_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+
+    .xbox_photo a,
+    .ps_photo a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .xbox_photo button,
+    .ps_photo button {
+        display: flex;
+        justify-content: center;
+        padding: 10px 15px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        background: rgb(136, 136, 136);
+        color: #081d3d;
+        cursor: pointer;
+    }
+
+
+    .buy-_btn {
+        display: none;
+    }
+
+    .vidG_xbox {
+        height: 550px;
+        width: 700px;
+        align-items: center;
+    }
+
+
+    .vidG_ps {
+        height: 550px;
+        width: 700px;
+    }
+
+    .xbox_box {
+        height: 550px;
+    }
+
+    .ps_box {
+        height: 550px;
+    }
+
+    .xbox_photo {
+        margin-bottom: 50px;
+    }
+
+    .vidG_xbox {
+        width: 650px;
+    }
+
+    .vidG_ps {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .vidG_xbox {
+        width: 600px;
+    }
+
+    .vidG_ps {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .vidG_container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .vidG_xbox {
+        width: 700px;
+    }
+
+    .vidG_ps {
+        width: 700px;
+    }
+
+    .vidG_xbox {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
+
+@media screen and (max-width: 750px) {
+
+    .xbox_box img,
+    .ps_box img {
+        display: none;
+    }
+
+    .vidG_xbox {
+        width: 380px;
+    }
+
+    .vidG_ps {
+        width: 380px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .vidG_xbox {
+        width: 330px;
+    }
+
+    .vidG_ps {
+        width: 330px;
+    }
+
+    .xbox_photo img {
+        width: 330px;
+        height: 250px;
+    }
+
+    .ps_photo img {
+        width: 330px;
+        height: 250px;
+
+    }
+
+}
+
+@media screen and (max-width: 330px) {
+    .vidG_xbox {
+        width: 310px;
+    }
+
+    .vidG_ps {
+        width: 310px;
+    }
+
+    .xbox_photo img {
+        width: 310px;
+        height: 250px;
+    }
+
+    .ps_photo img {
+        width: 310px;
+        height: 250px;
+
+    }
+
+    .xbox_photo a {
+        margin-bottom: 50px;
+    }
+
+}

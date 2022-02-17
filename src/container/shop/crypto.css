@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.background_wallpaper_crypto {
+    background-image: url('./pic/graph2.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 100px;
+
+}
+
+
+.crypto_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crypto_bit_2 {
+    display: none;
+}
+
+
+.crypto_eth,
+.crypto_bit_1,
+.crypto_lite {
+    font-size: 25px;
+    background: #041325;
+}
+
+.crypto_eth h1 {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.crypto_bit_1 h1 {
+    margin-left: 80px;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.crypto_lite h1 {
+    margin-top: 20px;
+    margin-left: 60px;
+    /* color: rgb(101, 78, 134); */
+    color: rgba(255, 255, 255, 0.767);
+
+}
+
+
+.crypto_eth button {
+    margin-top: 130px;
+    margin-left: 130px;
+    padding: 17px 28px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    /* background: rgba(207, 96, 96, 0.945); */
+    background: rgb(247, 147, 26);
+    border: none;
+    cursor: pointer;
+}
+
+.crypto_bit_1 button {
+    margin-top: 120px;
+    margin-left: 130px;
+    padding: 17px 28px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    /* background: rgba(207, 96, 96, 0.945); */
+    background: rgb(247, 147, 26);
+    border: none;
+    cursor: pointer;
+}
+
+.crypto_lite button {
+    margin-top: 130px;
+    margin-left: 120px;
+    padding: 17px 28px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    /* background: rgba(207, 96, 96, 0.945); */
+    background: rgb(247, 147, 26);
+    border: none;
+    cursor: pointer;
+}
+
+.crypto_eth {
+    height: 450px;
+    width: 380px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-top: 80px;
+
+}
+
+.crypto_bit_1 {
+    height: 450px;
+    width: 380px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+
+
+.crypto_lite {
+    height: 450px;
+    width: 380px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-top: 80px;
+}
+
+.lite_img,
+.eth_image,
+.bit_image {
+    height: 280px;
+    width: 380px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.lite_img img {
+    width: 55%;
+}
+
+.eth_image img {
+    width: 53%;
+}
+
+.bit_image img {
+    width: 90%;
+}
+
+@media screen and (max-width: 1240px) {
+
+    .crypto_lite,
+    .crypto_bit_1,
+    .crypto_eth {
+        height: 400px;
+        width: 300px;
+    }
+
+    .lite_img,
+    .eth_image,
+    .bit_image {
+        height: 280px;
+        width: 300px;
+    }
+
+    .crypto_eth button {
+        margin-top: 80px;
+        margin-left: 90px;
+        padding: 17px 28px;
+        font-size: 15px;
+    }
+
+    .crypto_bit_1 button {
+        margin-top: 80px;
+        margin-left: 90px;
+        padding: 17px 28px;
+
+    }
+
+    .crypto_lite button {
+        margin-top: 80px;
+        margin-left: 90px;
+        padding: 17px 28px;
+    }
+
+    .crypto_eth,
+    .crypto_bit_1,
+    .crypto_lite {
+        font-size: 20px;
+    }
+
+    .crypto_eth h1 {
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+
+    .crypto_bit_1 h1 {
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+
+    .crypto_lite h1 {
+        margin-top: 20px;
+        margin-left: 50px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .crypto_lite,
+    .crypto_bit_1,
+    .crypto_eth {
+        height: 320px;
+        width: 250px;
+    }
+
+    .lite_img,
+    .eth_image,
+    .bit_image {
+        height: 230px;
+        width: 250px;
+    }
+
+    .crypto_eth button {
+        margin-top: 60px;
+        margin-left: 70px;
+        padding: 17px 28px;
+        font-size: 15px;
+    }
+
+    .crypto_bit_1 button {
+        margin-top: 60px;
+        margin-left: 65px;
+        padding: 17px 28px;
+
+    }
+
+    .crypto_lite button {
+        margin-top: 60px;
+        margin-left: 65px;
+        padding: 17px 28px;
+    }
+
+    .crypto_eth,
+    .crypto_bit_1,
+    .crypto_lite {
+        font-size: 18px;
+    }
+
+    .crypto_eth h1 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .crypto_bit_1 h1 {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .crypto_lite h1 {
+        margin-top: 10px;
+        margin-left: 40px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .crypto_lite,
+    .crypto_bit_1,
+    .crypto_eth {
+        height: 280px;
+        width: 200px;
+    }
+
+    .lite_img,
+    .eth_image,
+    .bit_image {
+        height: 200px;
+        width: 200px;
+    }
+
+    .crypto_eth button {
+        margin-top: 60px;
+        margin-left: 45px;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .crypto_bit_1 button {
+        margin-top: 60px;
+        margin-left: 45px;
+        padding: 10px 20px;
+    }
+
+    .crypto_lite button {
+        margin-top: 60px;
+        margin-left: 45px;
+        padding: 10px 20px;
+    }
+
+    .crypto_eth,
+    .crypto_bit_1,
+    .crypto_lite {
+        font-size: 14px;
+    }
+
+    .crypto_eth h1 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .crypto_bit_1 h1 {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .crypto_lite h1 {
+        margin-top: 10px;
+        margin-left: 30px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 635px) {
+
+
+    .crypto_container {
+        padding-bottom: 100px;
+    }
+
+    .crypto_lite,
+    .crypto_bit_1,
+    .crypto_bit_2,
+    .crypto_eth {
+        height: 250px;
+        width: 180px;
+    }
+
+    .lite_img,
+    .eth_image,
+    .bit_image {
+        height: 180px;
+        width: 180px;
+    }
+
+    .crypto_eth button {
+        margin-top: 50px;
+        margin-left: 35px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .crypto_bit_1 button {
+        margin-top: 50px;
+        margin-left: 40px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .crypto_bit_2 button {
+        margin-top: 50px;
+        margin-left: 35px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .crypto_lite button {
+        margin-top: 50px;
+        margin-left: 35px;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .crypto_eth,
+    .crypto_bit_1,
+    .crypto_bit_2,
+    .crypto_lite {
+        font-size: 12px;
+    }
+
+    .crypto_eth h1 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .crypto_bit_1 h1 {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .crypto_bit_2 h1 {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .crypto_lite h1 {
+        margin-top: 10px;
+        margin-left: 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+    .second_cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .crypto_bit_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .crypto_bit {
+        justify-content: center;
+    }
+
+    .crypto_bit_1 {
+        display: none;
+    }
+
+    .crypto_container {
+        padding-top: 0px;
+    }
+
+    .crypto_bit_2 {
+        background: #041325;
+        align-items: center;
+    }
+
+    .crypto_bit_2 h1 {
+        margin-left: 40px;
+        margin-top: 0px;
+        color: rgba(255, 255, 255, 0.767);
+    }
+
+    .crypto_bit_2 button {
+        margin-top: 50px;
+        margin-left: 40px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: bolder;
+        font-size: 13px;
+        /* background: rgba(207, 96, 96, 0.945); */
+        background: rgb(247, 147, 26);
+        border: none;
+        cursor: pointer;
+    }
+
+    .crypto_bit_2 {
+        height: 250px;
+        width: 180px;
+        border: 2px solid white;
+        border-radius: 40px;
+        margin-bottom: 0px;
+    }
+
+    .crypto_bit {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .crypto_lite,
+    .crypto_eth {
+        height: 250px;
+        width: 170px;
+    }
+
+    .lite_img,
+    .eth_image,
+    .bit_image {
+        height: 180px;
+        width: 170px;
+    }
+
+    .crypto_eth h1 {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .crypto_bit_2 h1 {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .crypto_lite h1 {
+        margin-top: 10px;
+        margin-left: 25px;
+
+    }
+
+    .bit_image {
+        height: 180px;
+        width: 190px;
+    }
+
+
+
+}

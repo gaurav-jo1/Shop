@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+.fash_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 70px;
+  background: rgb(231, 38, 38);
+  overflow: hidden;
+}
+
+.fashion_images {
+  height: 520px;
+  width: 530px;
+  margin-left: 90px;
+  border-radius: 20px;
+  background-image: url(./pic/fash1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 10s;
+
+  animation-name: animate;
+  animation-duration: alternate-reverse;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(./pic/fash1.jpg);
+  }
+
+  25% {
+    background-image: url(./pic//fash2.jpg);
+  }
+
+  50% {
+    background-image: url(./pic//fash5.jpg);
+    background-size: cover;
+
+  }
+
+  75% {
+    background-image: url(./pic//fash6.jpg);
+    background-size: cover;
+
+  }
+
+  100% {
+    background-image: url(./pic//fash7.jpg);
+    background-size: cover;
+
+  }
+}
+
+.fashion_sale {
+  height: 500px;
+  width: 650px;
+  margin-bottom: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.fashion_sale h1 {
+  font-size: 90px;
+  line-height: 120px;
+  font-stretch: expanded;
+  font-family: "The Nautigal", cursive;
+}
+
+.heading_font {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.heading_font h2 {
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+  color: rgba(255, 255, 255, 0.774);
+}
+
+.coming_soon h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+.sneak_peak {
+  padding-top: 50px;
+}
+
+.sneak_peak button {
+  padding: 20px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 30px;
+  background: rgba(245, 245, 245, 0.705);
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1500px) {
+  .fash_container {
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+
+}
+
+
+@media screen and (max-width: 1370px) {
+  .fash_container {
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 70px;
+  }
+
+}
+
+
+@media screen and (max-width: 1310px) {
+  .fash_container {
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 70px;
+  }
+
+  .fashion_images {
+    height: 450px;
+    width: 450px;
+    margin-left: 90px;
+  }
+
+  .fashion_sale {
+    height: 500px;
+    width: 600px;
+    margin-bottom: 80px;
+
+  }
+
+  .fashion_sale h1 {
+    font-size: 80px;
+    line-height: 120px;
+  }
+
+  .heading_font h2 {
+    font-size: 80px;
+    padding-top: 8px;
+  }
+
+
+  .coming_soon h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .fashion_sale {
+    margin-bottom: 80px;
+    padding-top: 130px;
+  }
+
+
+  .sneak_peak {
+    padding-top: 30px;
+  }
+
+
+}
+
+@media screen and (max-width: 1140px) {
+  .fashion_images {
+    margin-left: 20px;
+  }
+
+
+  .fashion_sale h1 {
+    font-size: 70px;
+    line-height: 120px;
+  }
+
+  .heading_font h2 {
+    font-size: 70px;
+    padding-top: 12px;
+  }
+
+
+  .coming_soon h1 {
+    font-size: 40px;
+  }
+
+  .sneak_peak {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .fash_container {
+    flex-direction: column;
+  }
+
+  .fashion_sale {
+    margin-bottom: 00px;
+    padding-top: 60px;
+    width: 650px;
+    height: 400px;
+  }
+
+
+  .fashion_sale h1 {
+    font-size: 90px;
+    line-height: 120px;
+  }
+
+  .heading_font h2 {
+    font-size: 100px;
+    padding-top: 0px;
+  }
+
+
+  .coming_soon h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+
+  .fashion_sale h1 {
+    font-size: 80px;
+    line-height: 120px;
+  }
+
+  .heading_font h2 {
+    font-size: 80px;
+    padding-top: 6px;
+  }
+
+
+  .coming_soon h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .fashion_images {
+    height: 450px;
+    width: 380px;
+    margin-left: 0px;
+  }
+
+  .heading_font {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fashion_sale h1 {
+    font-size: 60px;
+    line-height: 90px;
+  }
+
+  .heading_font h2 {
+    font-size: 70px;
+    padding-top: 6px;
+  }
+
+
+  .coming_soon h1 {
+    font-size: 35px;
+  }
+
+  .coming_soon h3 {
+    font-size: 18px;
+
+    padding-top: 10px;
+    padding-left: 6px;
+  }
+
+  .fash_container {
+    padding-top: 50px;
+  }
+}

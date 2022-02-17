@@ -1,0 +1,153 @@
+.tech_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 110px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  background: rgb(127, 96, 212);
+  overflow: hidden;
+}
+
+.tech_pictures {
+  height: 450px;
+  width: 700px;
+}
+
+.tech_detail {
+  height: 450px;
+  width: 550px;
+  border-radius: 20px;
+  margin-right: 110px;
+}
+
+.tech_detail h1 {
+  color: rgba(245, 245, 245, 0.76);
+}
+
+.tech_detail h3 {
+  padding-top: 6px;
+  color: rgba(245, 245, 245, 0.76);
+}
+
+.tech_detail_h {
+  padding-top: 30px;
+}
+
+.tech_detail_h p {
+  padding-top: 10px;
+  font-size: 17px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.tech_detail_h a {
+  color: rgb(240, 240, 240);
+  text-decoration: underline;
+}
+
+.tech_detail button {
+  margin-top: 60px;
+  margin-left: 260px;
+  padding: 13px 30px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.671);
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+}
+
+@media screen and (max-width: 1540px) {
+  .tech_container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .tech_container {
+    padding-top: 110px;
+    padding-left: 00px;
+    padding-right: 00px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .tech_container {
+    padding-top: 110px;
+    padding-left: 00px;
+    padding-right: 00px;
+    padding-bottom: 80px;
+  }
+
+  .tech_detail {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .tech_pictures {
+    padding-top: 80px;
+  }
+
+  .tech_container {
+    padding-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .tech_container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tech_container {
+    padding-top: 40px;
+    padding-left: 00px;
+    padding-right: 00px;
+    padding-bottom: 90px;
+  }
+
+  .tech_detail button {
+    margin-left: 0px;
+  }
+
+  .tech_pictures {
+    height: 400px;
+    width: 600px;
+  }
+
+  .tech_detail {
+    height: 450px;
+    width: 550px;
+    border-radius: 20px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .tech_pictures {
+    height: 350px;
+    width: 400px;
+  }
+
+  .tech_detail {
+    height: 450px;
+    width: 330px;
+    border-radius: 20px;
+    margin-right: 0px;
+  }
+
+  .tech_detail button {
+    margin-bottom: 60px;
+  }
+
+  .tech_container {
+    padding-bottom: 200px;
+    padding-top: 0px;
+  }
+}

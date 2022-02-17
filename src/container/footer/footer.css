@@ -1,0 +1,344 @@
+.webshop_footer {
+    background: var(--color-bg);
+    padding: 90px 100px;
+    overflow: hidden;
+}
+
+.webshop_footer_heading {
+    color: white;
+}
+
+.webshop_footer_heading h1 {
+    padding-top: 30px;
+}
+
+.webshop_header-content__input {
+    display: flex;
+
+    padding-top: 30px;
+
+}
+
+.webshop_header-content__input input {
+
+    line-height: 27px;
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 0.74);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+
+}
+
+.webshop_header-content__input button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.192);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+
+    margin-left: 5px;
+}
+
+.webshop_header-content__input button img {
+    height: 30px;
+    width: 40px;
+    margin: 5px 10px;
+    padding: 2px 5px;
+}
+
+.webshop_footer_heading p {
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.webshop_footer_ending_photo {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 200px;
+}
+
+.webshop_footer_ending_photo img {
+    height: 300px;
+    width: 300px;
+
+}
+
+.webshop_footer_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.webshop_footer_two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.webshop_footer_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.webshop_footer_logo img {
+    height: 100%;
+    width: 250px;
+}
+
+.webshop_footer_logo h4 {
+    color: rgba(255, 255, 255, 0.747);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.webshop_footer_detail_one,
+.webshop_footer_detail_two,
+.webshop_footer_detail_three {
+    color: rgba(255, 255, 255, 0.541);
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: 200;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.webshop_footer_detail_three h4 {
+    color: white;
+    cursor: pointer;
+}
+
+.webshop_footer_detail_three img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.webshop_footer_social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.responsive_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.webshop_footer_logo {
+    display: flex;
+    flex-direction: space-between;
+    align-items: center;
+}
+
+.webshop_footer_logo h4 {
+    padding-left: 30px;
+}
+
+.webshop_footer_detail_one,
+.webshop_footer_detail_two,
+.webshop_footer_detail_three {
+    padding: 10px 100px;
+}
+
+
+@media screen and (max-width: 1220px) {
+    .webshop_footer_ending_photo {
+        height: 250px;
+        width: 250px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-right: 100px;
+    }
+
+    .webshop_footer_ending_photo img {
+        height: 250px;
+        width: 250px;
+
+    }
+}
+
+@media screen and (max-width: 1090px) {
+
+    .webshop_footer_logo img {
+        height: 100%;
+        width: 200px;
+    }
+
+
+    .webshop_footer_two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .webshop_footer_logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .webshop_footer_logo h4 {
+        padding-left: 50px;
+    }
+
+    .responsive_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+
+    }
+
+
+    .webshop_footer_detail_one,
+    .webshop_footer_detail_two,
+    .webshop_footer_detail_three {
+        padding: 10px 100px;
+    }
+
+    .webshop_footer {
+        padding: 30px 80px;
+    }
+
+    .webshop_footer_ending_photo {
+        margin-right: 50px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+
+    .webshop_footer {
+        padding: 30px 40px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    .webshop_footer_ending_photo {
+        margin-right: 0px;
+    }
+
+
+    .webshop_footer {
+        padding: 30px 50px;
+    }
+
+    .webshop_footer_ending_photo {
+        height: 180px;
+        width: 180px;
+    }
+
+    .webshop_footer_ending_photo img {
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .webshop_footer_ending_photo {
+        display: none;
+    }
+
+    .webshop_footer_one {
+        display: flex;
+        justify-content: center;
+    }
+
+    .webshop_footer_logo {
+        padding-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+
+    .webshop_footer_detail_one,
+    .webshop_footer_detail_two,
+    .webshop_footer_detail_three {
+        padding: 10px 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .webshop_footer_detail_one,
+    .webshop_footer_detail_two,
+    .webshop_footer_detail_three {
+        padding: 0px 50px;
+    }
+
+    .webshop_footer_logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .webshop_footer_logo h4 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    .webshop_footer_detail_one,
+    .webshop_footer_detail_two,
+    .webshop_footer_detail_three {
+        padding: 0px 20px;
+    }
+
+    .webshop_header-content__input input {
+
+        line-height: 27px;
+        width: 300px;
+        padding: 10px;
+        font-size: 15px;
+        background: rgba(0, 0, 0, 0.15);
+        color: rgba(255, 255, 255, 0.74);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.541);
+
+    }
+
+    .webshop_header-content__input button img {
+        height: 30px;
+        width: 40px;
+        margin: 5px 10px;
+        padding: 2px 3px;
+    }
+
+    .webshop_footer_detail_two {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .webshop_header-content__input input {
+
+        line-height: 27px;
+        width: 250px;
+        padding: 10px;
+        font-size: 15px;
+
+    }
+
+    .webshop_footer_logo h4 {
+        padding-left: 0px;
+    }
+
+    .webshop_footer_detail_two,
+    .webshop_footer_detail_one,
+    .webshop_footer_detail_three {
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+}

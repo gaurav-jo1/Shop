@@ -1,0 +1,295 @@
+.webshop__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.webshop__header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: flex;
+  margin-bottom: 50px;
+}
+
+.webshop_header_write {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.webshop_header_main_heading {
+  padding-bottom: 50px;
+}
+
+.webshop_header_main_heading h1 {
+  background-image:linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  background-clip: text;
+  color: transparent;
+}
+
+.webshop_header_main_heading h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.webshop_header_main_heading_two {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.webshop_header_write_pg {
+  margin-top: 25px;
+
+
+}
+
+.webshop_header_write_pg h3 {
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.webshop__header-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 95px;
+}
+
+.img_container_first {
+  width: 380px;
+}
+
+.img_container_second {
+  width: 350px;
+}
+
+.img_container_first img {
+  width: 400px;
+  height: 100%;
+  margin-top: 150px;
+}
+
+.img_container_second img {
+  width: 380px;
+  height: 100%;
+  margin-top: 130px;
+}
+
+.webshop__header_last_picture {
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 1493px) {
+  .webshop_header_main_heading h1 {
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 80px;
+  }
+
+  .webshop_header_main_heading {
+    padding-bottom: 10px;
+  }
+
+  .webshop_header_write_pg {
+    text-align: center;
+  }
+
+  .img_container_first img {
+    width: 330px;
+    height: 100%;
+    margin-top: 150px;
+  }
+
+  .img_container_second img {
+    width: 330px;
+    height: 100%;
+    margin-top: 130px;
+  }
+
+  .img_container_first {
+    width: 350px;
+  }
+
+  .img_container_second {
+    width: 330px;
+  }
+}
+
+
+
+@media screen and (max-width: 1293px) {
+
+
+  .img_container_first {
+    display: none;
+  }
+
+  .img_container_second {
+    display: none;
+  }
+
+  .webshop__header_last_picture {
+    display: flex;
+    margin-top: 38px;
+    justify-content: space-around;
+  }
+
+  .webshop__header_last_picture img {
+    height: 100%;
+    width: 450px;
+  }
+
+  .webshop_header_main_heading_two {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .webshop_header_main_heading {
+    padding-bottom: 0px;
+  }
+
+  .webshop_header_write_pg {
+    margin-top: 0px;
+  }
+
+  .webshop_header_write_pg {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .img_container_first img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .img_container_second img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .webshop_header_write_pg {
+    margin-bottom: 50px;
+  }
+
+  .webshop_header_write_pg h3 {
+    font-weight: 400;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  .img_container_first {
+    width: 280px;
+  }
+
+  .img_container_second {
+    width: 280px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 850px) {
+
+  .webshop_header_main_heading_two {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+  }
+
+
+  .webshop__header_last_picture {
+    display: flex;
+    margin-top: 38px;
+    justify-content: space-around;
+  }
+
+  .webshop__header_last_picture img {
+    height: 100%;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .webshop_header_main_heading_two {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .webshop_header_main_heading h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .webshop_header_main_heading {
+    margin-top: 28px;
+  }
+
+  .webshop_header_main_heading h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .webshop_header_write_pg h3 {
+    font-weight: 400;
+  }
+
+  .webshop__header_last_picture img {
+    height: 100%;
+    width: 190px;
+  }
+
+  .webshop__header-content {
+    margin-bottom: 0px;
+  }
+
+  .webshop_header_write_pg {
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 430px) {
+  .webshop_header_main_heading_two {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .webshop_header_write_pg h3 {
+    font-size: 15px;
+
+  }
+
+  .webshop__header_last_picture img {
+    height: 100%;
+    width: 190px;
+  }
+}

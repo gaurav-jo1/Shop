@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.gradient__bg {
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 0% 4%, rgba(108, 61, 201, 1) 0%, rgba(7, 4, 34, 1) 27%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 0% 4%, rgba(108, 61, 201, 1) 0%, rgba(7, 4, 34, 1) 27%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 0% 4%, rgba(108, 61, 201, 1) 0%, rgba(7, 4, 34, 1) 27%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 0% 4%, rgba(108, 61, 201, 1) 0%, rgba(7, 4, 34, 1) 27%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 0% 4%, rgba(108, 61, 201, 1) 0%, rgba(7, 4, 34, 1) 27%);
+
+}
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.animate-item {
+    animation-name: shutter-in-top;
+    animation-duration: 1.25s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+@keyframes shutter-in-top {
+    0% {
+        transform: rotateX(-100deg);
+        transform-origin: top;
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateX(0deg);
+        transform-origin: top;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+}

@@ -1,0 +1,186 @@
+.webshop__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 4rem;
+    
+}
+
+.webshop__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.webshop__navbar-links_logo {
+    margin-right: 2rem;
+    margin-top: 1.1rem;
+}
+
+.webshop__navbar-links_logo img {
+    width: 250px;
+    height: 100%;
+}
+
+.webshop__navbar-links_container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    text-decoration:solid 0.8px overline;
+}
+
+.webshop__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.webshop__navbar-links_container p,
+.webshop__navbar-sign p,
+.webshop__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.webshop__navbar-sign button,
+.webshop__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #0c98f5;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.webshop__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.webshop__navbar-menu png {
+    cursor: pointer;
+}
+
+.webshop__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    z-index: 1;
+}
+
+.webshop__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.webshop__navbar-menu_container-links-sign {
+    display: none;
+}
+
+.Menu {
+    color: white;
+}
+
+@media screen and (max-width: 1320px) {
+    .webshop__navbar-links_logo img {
+        width: 200px;
+        height: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1240px) {
+    .webshop__navbar-links_container {
+        display: none;
+    }
+
+    .webshop__navbar-menu {
+        display: flex;
+    }
+
+    .webshop__navbar-links_logo img {
+        width: 180px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .webshop__navbar {
+        padding: 20px 40px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .webshop__navbar-links_logo img {
+        width: 160px;
+        height: 80px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 720px) {
+
+    .webshop__navbar-sign {
+        display: none;
+    }
+
+    .webshop__navbar-menu_container {
+        top: 32px 45px;
+    }
+
+    .webshop__navbar-menu_container-links-sign {
+        display: block;
+    }
+
+    .webshop__navbar-links_logo img {
+        width: 145px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .webshop__navbar-links_logo img {
+        width: 130px;
+        height: 60px;
+    }
+
+    .webshop__navbar {
+        padding: 4px 12px;
+    }
+    
+}
