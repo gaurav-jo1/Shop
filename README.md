@@ -1,18 +1,32 @@
-### [ Live Site] { https://trusting-minsky-d42cbd.netlify.app/ }
 
-## Introduction
+![Web_Shop (1)](https://user-images.githubusercontent.com/93304640/156531707-980a1d5e-a83e-412d-945f-4d1cfcb2598b.png)
 
-I created an E-commerce website using React js⚛️
 
-Fully responsive ✔️ ( Website will work in Desktop, Tablet and Phone etc.)
+# Live site link ⬇️
 
-React router ✔️ ( Website will not reload every time user switches from one section to another. )
+https://trusting-minsky-d42cbd.netlify.app/
 
-Scroll animation ✔️ ( Animation work only when you start scrolling.) etc.
 
-Special thanks to Netlify for the web hosting service it was so easy to use.😄
+# Tech Stack 💻
 
-Hope you all guys like the website
+⚔️ React.js
 
-Setup:
-- run ```npm i && npm start``` for tge client and server side to start the development server
+⚔️ JavaScript
+
+⚔️ CSS
+
+⚔️ GSAP Animation
+
+⚔️ HTML
+
+# Tools 🔧
+
+⚓ Visual Studio Code
+
+⚓ NPM (Node Package manager)
+
+⚓ Git
+
+# Visuals 🌻
+
+![SS22 (1)](https://user-images.githubusercontent.com/93304640/156532914-7614014c-22f6-4443-9f3d-67666928c362.jpg)
