@@ -4,7 +4,7 @@
 
 # Live site link ⬇️
 
-https://trusting-minsky-d42cbd.netlify.app/
+https://webshop-hello.netlify.app/fash
 
 
 # Tech Stack 💻
