@@ -4,7 +4,7 @@
 
 # Live site link ⬇️
 
-https://webshop-hello.netlify.app/fash
+https://webshop-hello.netlify.app/
 
 
 # Tech Stack 💻
