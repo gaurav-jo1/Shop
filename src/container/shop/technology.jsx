@@ -1,5 +1,5 @@
 import React from "react";
-import "./tech.css";
+import "./tech.scss";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footertwo";
 import ImageSlider from "./inside/ImageSlider";

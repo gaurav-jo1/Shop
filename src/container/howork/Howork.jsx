@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./howork.css";
+import "./howork.scss";
 import pulse from "./images/pulse.png";
 import build from "./images/build.svg";
 import man from "./images/man.png";

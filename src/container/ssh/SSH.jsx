@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./ssh.css";
+import "./ssh.scss";
 import { gsap } from "gsap";
 import { TweenMax, Power3 } from "gsap/index";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

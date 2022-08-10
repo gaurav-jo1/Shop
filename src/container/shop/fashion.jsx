@@ -1,5 +1,5 @@
 import React from "react";
-import "./fash.css";
+import "./fash.scss";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footertwo";
 

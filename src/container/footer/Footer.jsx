@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./footer.css";
+import "./footer.scss";
 import end from "./images/end.webp";
 import send from "./images/send.png";
 import logo from "./images/loho2.png";

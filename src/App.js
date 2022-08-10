@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import Home from "./Home";
 import { Routes, Route } from "react-router-dom";
 import Technology from "./container/shop/technology";

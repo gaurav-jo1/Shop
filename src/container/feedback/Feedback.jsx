@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./feedback.css";
+import "./feedback.scss";
 import { TweenMax } from "gsap/index";
 
 function Feedback() {

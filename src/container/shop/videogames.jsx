@@ -1,5 +1,5 @@
 import React from "react";
-import "./vidG.css";
+import "./vidG.scss";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footertwo";
 import xbox from "./pic/XX.jpg";

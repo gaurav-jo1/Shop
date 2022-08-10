@@ -1,5 +1,5 @@
 import React from "react";
-import "./crypto.css";
+import "./crypto.scss";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footertwo";
 import lite from "./pic/litecoin.png";

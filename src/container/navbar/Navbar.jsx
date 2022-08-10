@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RiCloseLine } from "react-icons/ri";
 import { BiAlignLeft } from "react-icons/bi";
-import "./navbar.css";
+import "./navbar.scss";
 import logo from "../../assets/loho2.png";
 import { Link } from "react-router-dom";
 

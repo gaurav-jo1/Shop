@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import "./header.css";
+import "./header.scss";
 import CTP from "../../assets/phone.png";
 import laptop from "../../assets/laptop.png";
 import { TweenMax, Power3 } from "gsap/index";
